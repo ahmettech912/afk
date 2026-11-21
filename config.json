@@ -1,0 +1,22 @@
+{
+  "ip": "Supercraft.aternos.me",
+  "port": 17598,
+  "name": "SuperCraft",
+  "auth": "offline",
+  "password": "supercraft",
+  "autoLogin": true,
+  "ops": [],
+  "onek": "[SuperCraft]",
+  "renk": "green",
+  "bypass": {
+    "enabled": true,
+    "retryDelay": 90000,
+    "maxRetries": 4,
+    "longDelay": 180000,
+    "timeoutMs": 70000,
+    "brandMode": "sync",
+    "rawLog": false
+  },
+  "reconnectDelay": 15000,
+  "keepAlive": { "enabled": false, "port": 3000 }
+}

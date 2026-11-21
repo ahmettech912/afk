@@ -1,0 +1,16 @@
+{
+  "name": "supercraft-afk-bot",
+  "version": "2.0.0",
+  "description": "Sonar bypass + mineflayer AFK bot (birlestirilmis)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "bypass": "node sonar-bypass.js",
+    "test": "node test/codec.test.js && node test/heights.test.js && node test/integration.test.js"
+  },
+  "dependencies": {
+    "mineflayer": "4.25.0",
+    "minecraft-protocol": "1.54.0",
+    "minecraft-data": "3.119.0"
+  }
+}
